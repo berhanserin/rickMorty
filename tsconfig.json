@@ -1,0 +1,24 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "./src/types/svg.d.ts",
+      "@types/jest"
+
+    ]
+  },
+  "allowImportingTsExtensions": false,
+  "exclude": [
+    "babel.config.js",
+    "node_modules",
+    "metro.config.js",
+    "jext.config.js",
+    "node_modules",
+  ]
+}
